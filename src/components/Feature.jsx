@@ -2,8 +2,8 @@ import React from 'react';
 
 const Feature = () => {
   return (
-    <div className="container px-10">
-      <div className="flex flex-col md:flex-row justify-around items-center gap-10 my-20">
+    
+      <div className="container mx-auto flex flex-col md:flex-row justify-around items-center gap-10 my-20">
         <div >
           <img
             src="/images/delicious-food.jpg"
@@ -34,7 +34,7 @@ const Feature = () => {
           <p>The Garden of Eat'n provides the best services for their customers.</p>
         </div>
       </div>
-    </div>
+
   );
 };
 
