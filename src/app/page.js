@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import Navbar from "@/components/Navbar";
+import Explore from "../components/Explore";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
      <Hero />
       <Feature />
       <Menu />
+      <Explore/>
       <Footer />
     </div>
   );
