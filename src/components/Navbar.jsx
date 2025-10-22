@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 bg-base-100 shadow-sm">
@@ -12,26 +14,26 @@ const Navbar = () => {
           <ul
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a>Menu</a></li>
-            <li><a>Contact</a></li>
-            <li><a>About Us</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/">Menu</Link></li>
+            <li><Link href="/">Contact</Link></li>
+            <li><Link href="/">About Us</Link></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl text-yellow-300">PurePlatter</a>
+        <Link href="/" className="btn btn-ghost text-xl text-yellow-300"><img src="/images/Restraurant.png" alt="image not found" className="w-52 h-12 rounded" /></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a>Home</a></li>
-          <li><a>Menu</a></li>
-          <li><a>Contact</a></li>
-          <li><a>About Us</a></li>
+          <li><Link href="/" className="font-semibold hover:border-b-2 hover:bg-amber-300">Home</Link></li>
+          <li><Link href="/" className="font-semibold hover:border-b-2 hover:bg-amber-300">Menu</Link></li>
+          <li><Link href="/contact" className="font-semibold hover:border-b-2 hover:bg-amber-300">Contact</Link></li>
+          <li><Link href="/" className="font-semibold hover:border-b-2 hover:bg-amber-300">About Us</Link></li>
         </ul>
       </div>
       <div className="navbar-end flex gap-2 ">
 
-        <a className="btn rounded-2xl bg-yellow-200">Sing in</a>
-        <a className="btn rounded-2xl bg-yellow-200">Log out</a>
+        <Link href="/" className="btn rounded-xl bg-yellow-300">Sing in</Link>
+        <Link href="/" className="btn rounded-xl bg-yellow-300">Log out</Link>
 
       </div>
       </div>
