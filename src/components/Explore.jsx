@@ -2,9 +2,9 @@ import React from 'react';
 import { SiFireship } from 'react-icons/si';
 const Explore = () => {
     return (
-        <div className='container mx-auto p-10'>
+        <div className='container mx-auto my-15'>
 
-            <h4 className='text-4xl font-bold text-yellow-400 text-center p-5'>Know our flavors</h4>
+            <h4 className='text-4xl font-bold text-yellow-400 text-center px-5 py-16 '>Know our flavors</h4>
 
             <div className="grid grid-cols-4 justify-center gap-5">
                 <div className='p-5 rounded-2xl shadow-md  shadow-amber-300 bg-white' >

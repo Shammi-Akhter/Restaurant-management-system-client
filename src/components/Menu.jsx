@@ -13,8 +13,8 @@ const Menu = () => {
   ];
 
   return (
-    <section className="px-10 py-16 bg-base-200">
-      <h2 className="text-4xl font-bold text-center text-yellow-400 mb-10">Menu</h2>
+    <section className="container mx-auto  mt-15">
+      <h2 className="text-4xl font-bold text-center text-yellow-400 px-5 py-16">Menu</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {foods.map((food) => (

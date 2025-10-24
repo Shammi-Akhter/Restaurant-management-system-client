@@ -19,21 +19,21 @@ const Footer = () => {
                         <Link href="https://www.facebook.com/"><FaWhatsappSquare className='text-amber-400 text-2xl' /></Link>
                     </div>
                 </nav>
-                <nav>
+                <nav className='pt-20'>
                     <h6 className="footer-title text-yellow-400">Company</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <Link href="/about_us" target="_blank"className="link link-hover">About us</Link>
+                    <Link href="/contact" target="_blank" className="link link-hover">Contact</Link>
+                    <Link href="/"className="link link-hover">Jobs</Link>
+                    
                 </nav>
-                <nav>
+                <nav className='pt-20'>
                     <h6 className="footer-title text-yellow-400">Legal</h6>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <Link href="/"className="link link-hover">Terms of use</Link>
+                    <Link href="/"className="link link-hover">Privacy policy</Link>
+                    <Link href="/"className="link link-hover">Cookie policy</Link>
                 </nav>
-                <nav>
-                    <h2>Location</h2>
+                <nav className='pt-20'>
+                    <h2 className="footer-title text-yellow-400">Location</h2>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14600.002261209827!2d90.35554733347423!3d23.818578938234285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1761149038254!5m2!1sen!2sbd" width="200" height="150"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
                 </nav>
