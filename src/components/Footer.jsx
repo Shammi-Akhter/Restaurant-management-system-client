@@ -3,26 +3,27 @@ import React from 'react';
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 const Footer = () => {
     return (
         <div>
             <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
                 <nav>
                     <img src="/images/restaurent-logo.png" alt="" className='w-20 h-20 rounded-full' />
-                    <h6 className="footer-title  "><span className='text-amber-400 font-bold'>Hotline:</span> 01612332923</h6>
-                    <h1 className='link link-hover' >pureplater@gmail.com</h1>
-                    <h1 >H/O: 2nd Floor,Flavour Tower, Plot: 07,Dhaka</h1>
-                    <h1 className=" text-lg text-amber-400 font-semibold">PurePlatter</h1>
+                    <h6 className="footer-title text-black "><span className='text-amber-400 font-bold'>Hotline:</span> 01612332923</h6>
+                    <h6 className='flex gap-1 link link-hover' ><IoMdMail className='mt-1' />pureplater@gmail.com</h6>
+                    <h6 >H/O: 2nd Floor,Flavour Tower, Plot: 07,Dhaka</h6>
+                    <h6 className=" text-lg text-amber-400 font-semibold">PurePlatter</h6>
                     <div className='flex gap-1'>
-                        <Link href="https://www.facebook.com/"><FaSquareFacebook className='text-amber-400 text-2xl' /></Link>
-                        <Link href="https://www.facebook.com/"><FaInstagramSquare className='text-amber-400 text-2xl' /></Link>
-                        <Link href="https://www.facebook.com/"><FaWhatsappSquare className='text-amber-400 text-2xl' /></Link>
+                        <Link href="https://www.facebook.com/" target='_blank'><FaSquareFacebook className='text-amber-400 text-2xl' /></Link>
+                        <Link href="https://www.instagram.com/" target='_blank'><FaInstagramSquare className='text-amber-400 text-2xl' /></Link>
+                        <Link href="https://www.whatsapp.com/" target='_blank'><FaWhatsappSquare className='text-amber-400 text-2xl' /></Link>
                     </div>
                 </nav>
                 <nav className='pt-20'>
                     <h6 className="footer-title text-yellow-400">Company</h6>
-                    <Link href="/about_us" target="_blank"className="link link-hover">About us</Link>
-                    <Link href="/contact" target="_blank" className="link link-hover">Contact</Link>
+                    <Link href="/about_us" className="link link-hover">About us</Link>
+                    <Link href="/contact"  className="link link-hover">Contact</Link>
                     <Link href="/jobs" className="link link-hover">Jobs</Link>
                     
                 </nav>
