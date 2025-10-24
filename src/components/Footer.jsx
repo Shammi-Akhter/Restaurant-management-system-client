@@ -23,14 +23,14 @@ const Footer = () => {
                     <h6 className="footer-title text-yellow-400">Company</h6>
                     <Link href="/about_us" target="_blank"className="link link-hover">About us</Link>
                     <Link href="/contact" target="_blank" className="link link-hover">Contact</Link>
-                    <Link href="/"className="link link-hover">Jobs</Link>
+                    <Link href="/jobs" className="link link-hover">Jobs</Link>
                     
                 </nav>
                 <nav className='pt-20'>
                     <h6 className="footer-title text-yellow-400">Legal</h6>
-                    <Link href="/"className="link link-hover">Terms of use</Link>
-                    <Link href="/"className="link link-hover">Privacy policy</Link>
-                    <Link href="/"className="link link-hover">Cookie policy</Link>
+                    <Link href="/terms"className="link link-hover">Terms of use</Link>
+                    <Link href="/privacy_policy"className="link link-hover">Privacy policy</Link>
+                    <Link href="/cookie_policy"className="link link-hover">Cookie policy</Link>
                 </nav>
                 <nav className='pt-20'>
                     <h2 className="footer-title text-yellow-400">Location</h2>
